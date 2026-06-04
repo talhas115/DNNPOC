@@ -49,3 +49,9 @@ InstallerLog*.resources
 # Ignore package manager folders
 packages/
 node_modules/
+
+# --- Site Configuration ---
+# Ignore active web.config containing local connection details and keys
+web.config
+!web.config.example
+
