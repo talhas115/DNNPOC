@@ -1,0 +1,51 @@
+# --- OS temporary files ---
+[Dd]esktop.ini
+[Tt]humbs.db
+.DS_Store
+
+# --- Visual Studio & IDE files ---
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.cache
+*.dtbcache
+*.ncb
+*.userprefs
+*.mono
+
+# --- DNN Cache, Logs, and Temp folders ---
+# Ignore ClientDependency generated files
+App_Data/ClientDependency/
+
+# Ignore Lucene Search Index
+App_Data/Search/
+
+# Ignore Image Cache
+App_Data/_imagecache/
+
+# Ignore IP Count data
+App_Data/_ipcount/
+
+# Ignore DNN Event Logs and Installer Logs
+Portals/*/Logs/
+Portals/_default/Logs/
+Portals/*/Cache/
+Portals/_default/Cache/
+*.log.resources
+InstallerLog*.resources
+
+# Ignore SQL Server database log files (transaction logs)
+*.ldf
+
+# Ignore standard temporary/compiled files that might be generated
+*.tmp
+*.log
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+# Ignore package manager folders
+packages/
+node_modules/
